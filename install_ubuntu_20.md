@@ -39,7 +39,13 @@ kubectl version --client
 ```
 
 ### test locally
+```
 export KUBECONFIG=kube.yml
 kubectl version
+```
+
+### test externally
+Change the local to FQDN or IP and add kube.yml to lens
+
 
 
