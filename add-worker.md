@@ -17,5 +17,5 @@ k0s woker <token here> > /dev/null 2>&1 &
 ```
 kubectl get nodes
 NAME              STATUS   ROLES    AGE   VERSION
-ip-172-14-11-1    Ready    <none>   1m   v1.19.3
+ip-172-14-11-1    Ready    <none>   1m    v1.19.3
 ```
