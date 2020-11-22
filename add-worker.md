@@ -11,7 +11,7 @@ k0s token create --role=worker --expiry="100h"
 
 ### join new worker
 ```
-k0s woker <token here> > /dev/null 2>&1 &
+k0s worker <token here> > /dev/null 2>&1 &
 ```
 ### check to see if node is ready
 ```
