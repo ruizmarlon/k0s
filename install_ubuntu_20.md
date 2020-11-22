@@ -1,5 +1,6 @@
-sudo apt update
 ```
+sudo apt update
+
 wget https://github.com/k0sproject/k0s/releases/download/v0.7.0/k0s-v0.7.0-amd64
 mv k0s-v0.7.0-amd64 k0s
 chmod +x k0s
