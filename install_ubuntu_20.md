@@ -1,10 +1,17 @@
+### Get amd64 bits
 ```
-sudo apt update
-
 wget https://github.com/k0sproject/k0s/releases/download/v0.7.0/k0s-v0.7.0-amd64
 mv k0s-v0.7.0-amd64 k0s
 chmod +x ./k0s
 ```
+
+### alternatively get arm64 bits
+```
+wget https://github.com/k0sproject/k0s/releases/download/v0.7.0/k0s-v0.7.0-arm64
+mv k0s-v0.7.0-arm64 k0s
+chmod +x ./k0s
+```
+
 ### create cluster.yaml from default generator
 ```
 ./k0s default-config > cluster.yaml
@@ -22,9 +29,13 @@ sudo ./k0s server --enable-worker -c cluster.yaml > /dev/null 2>&1 &
 sudo cat /var/lib/k0s/pki/admin.conf > kube.yml
 
 ## install `kubectl`
-### grab kubectl bits
+### get kubectl bits
 ```
 curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+### alternatively grab arm64 bits
+```
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/arm64/kubectl"
 ```
 ### make kubectl executabble
 ```
