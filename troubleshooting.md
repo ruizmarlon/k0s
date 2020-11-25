@@ -25,7 +25,7 @@ example output:
 8.0K	/var/lib/k0s/pki
 1.1G	/var/lib/k0s/
 ```
-### 
+### check log container log space
 ```
 ls -l /var/log/containers/
 ```
