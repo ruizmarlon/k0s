@@ -25,7 +25,7 @@ vim cluster.yaml
 ```
 sudo ./k0s server --enable-worker -c cluster.yaml > /dev/null 2>&1 &
 ```
-### alternatively for arm64
+### alternatively for arm64 (k0s 0.7.0)
 ```
 export ETCD_UNSUPPORTED_ARCH=arm64
 sudo -E ./k0s server -c cluster.yaml
