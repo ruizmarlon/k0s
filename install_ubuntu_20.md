@@ -25,6 +25,11 @@ vim cluster.yaml
 ```
 sudo ./k0s server --enable-worker -c cluster.yaml > /dev/null 2>&1 &
 ```
+### alternatively for arm64
+```
+export ETCD_UNSUPPORTED_ARCH=arm64
+sudo -E ./k0s server -c cluster.yaml
+```
 ### grab kubeconfig
 sudo cat /var/lib/k0s/pki/admin.conf > kube.yml
 
