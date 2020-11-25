@@ -29,7 +29,7 @@ example output:
 ```
 ls -l /var/log/containers/
 ```
-example:
+example result(initial install):
 ```
 lrwxrwxrwx 1 root root 133 Nov 25 21:30 calico-kube-controllers-5f6546844f-sqrgn_kube-system_calico-kube-controllers-9356ad4f96a62fdc176ca97fa8d3dd0d583616b842ace93b9bfd2c99b8ea262d.log -> /var/log/pods/kube-system_calico-kube-controllers-5f6546844f-sqrgn_eb1d8e30-38a4-466e-a263-11837bd62e0e/calico-kube-controllers/0.log
 lrwxrwxrwx 1 root root  98 Nov 25 21:30 calico-node-mlhgx_kube-system_calico-node-1dc210a954dcd572cac20a89573d8a219cfc90ff15211e619414afea0d38697f.log -> /var/log/pods/kube-system_calico-node-mlhgx_efd7118f-17a9-4128-9314-e80a05389897/calico-node/0.log
