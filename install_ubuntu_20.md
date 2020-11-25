@@ -42,7 +42,7 @@ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s ht
 ```
 curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/arm64/kubectl"
 ```
-### make kubectl executabble
+### make kubectl executable
 ```
 chmod +x ./kubectl
 ```
