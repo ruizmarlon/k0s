@@ -1,13 +1,13 @@
 ### get x86 bits
 ```
-wget https://github.com/k0sproject/k0s/releases/download/v0.8.1/k0s-v0.8.1-amd64
+wget https://github.com/k0sproject/k0s/releases/download/v0.10.0/k0s-v0.10.0-amd64
 mv k0s-v0.10.0-amd64 k0s
 chmod +x ./k0s
 ```
 
 ### alternatively get arm64 bits
 ```
-wget https://github.com/k0sproject/k0s/releases/download/v0.8.1/k0s-v0.8.1-arm64
+wget https://github.com/k0sproject/k0s/releases/download/v0.10.0/k0s-v0.10.0-amd64
 mv k0s-v0.10.0-arm64 k0s
 chmod +x ./k0s
 ```
